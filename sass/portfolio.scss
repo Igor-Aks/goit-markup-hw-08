@@ -1,0 +1,15 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/common";
+@import "./base/body";
+@import "./base/container";
+@import "./base/section";
+
+//header
+@import "./components/header";
+
+//our projects
+@import "./components/our-projects";
+
+//footer
+@import "./components/footer";

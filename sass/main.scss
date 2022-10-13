@@ -1,0 +1,34 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/common";
+@import "./base/body";
+@import "./base/container";
+@import "./base/section";
+
+//common title (what we do & team)
+@import "./base/common-title";
+
+//header
+@import "./components/header";
+
+//hero
+@import "./components/hero";
+
+//modal
+@import "./components/modal";
+
+//features
+@import "./components/features";
+
+//what we do
+@import "./components/what-we-do";
+
+//team
+@import "./components/team";
+
+//our-clients
+@import "./components/our-clients";
+
+//footer
+@import "./components/footer";
+
