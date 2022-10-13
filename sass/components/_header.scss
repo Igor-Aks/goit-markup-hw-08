@@ -17,7 +17,7 @@
 	margin-top: 16px;
 	margin-bottom: 16px;
 	margin-left: 15px;
-	
+
 }
 
 // the color of the "Web" in the logo
@@ -28,10 +28,7 @@
 .nav {
 	display: flex;
 	align-items: center;
-
-	@media screen and (max-width: 767px) {
-		display: none;
-	}
+	justify-content: space-between;
 }
 
 // remove extreme geometry
@@ -49,6 +46,10 @@
 
 	// display: flex;
 	// margin-left: 93px;
+
+	@media screen and (max-width: 767px) {
+			display: none;
+		}
 }
 
 //increase the size of the clickable sector for links in the navigation
@@ -96,6 +97,10 @@
 	// font-weight: 500;
 	// line-height: 1.1;
 	// letter-spacing: 0.02em;
+
+	@media screen and (max-width: 767px) {
+			display: none;
+		}
 }
 
 //the color of the mail and phone text in the header
@@ -144,4 +149,36 @@
 	// fill: #757575;
 
 	// transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__btn {
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav__icon {
+	// display: inline-flex;
+	// align-items: center;
+	// justify-content: center;
+	width: 18px;
+	height: 18px;
+}
+
+.nav__icon-close {
+	display: none;
+}
+
+.nav__btn.is-open .nav__icon-close {
+	display: block;
+}
+
+.nav__btn.is-open .nav__icon-stripes {
+	display: none;
 }

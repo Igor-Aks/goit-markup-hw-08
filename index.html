@@ -60,6 +60,12 @@
               >
             </li>
           </ul>
+          <button type="button" class="nav__btn js-open-menu " data-menu-button>
+            <svg class="nav__icon" aria-label="Перемикач мобільного меню">
+              <use class="nav__icon-close" href="./images/icons.svg#menu-close"></use>
+              <use class="nav__icon-stripes" href="./images/icons.svg#menu-stripes"></use>
+            </svg>
+          </button>
         </nav>
       </div>
     </header>
@@ -428,7 +434,13 @@
         <form class="footer-form">
           <p class="footer-form__title">Підпишіться на розсилку</p>
           <div class="footer-form_wrap">
-            <input class="footer-form__input" type="email" name="mail-footer" id="mail-footer" placeholder="E-mail" />
+            <input
+              class="footer-form__input"
+              type="email"
+              name="mail-footer"
+              id="mail-footer"
+              placeholder="E-mail"
+            />
             <button type="submit" class="submit-btn">
               Підписатися
               <svg class="paper-plane-icon">
@@ -515,6 +527,14 @@
         </form>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
