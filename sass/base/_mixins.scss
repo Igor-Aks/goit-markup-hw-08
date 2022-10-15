@@ -1,0 +1,34 @@
+//media query mixins
+
+@mixin mobile-min-480  {
+	@media screen and (min-width: 480px) {
+		@content;
+	}
+}
+
+@mixin tablet-min-768 {
+	@media screen and (min-width: 768px) {
+	@content;
+	}
+}
+
+@mixin tablet-max-767 {
+	@media screen and (max-width: 767px) {
+		@content;
+	}
+}
+
+@mixin desktop-min-1200 {
+	@media screen and (min-width: 1200px) {
+		@content;
+	}
+}
+
+//media query for retina 2x
+@mixin retina {
+	@media (min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+  @content;
+	}
+}
