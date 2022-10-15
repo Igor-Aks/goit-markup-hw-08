@@ -201,16 +201,17 @@
 .menu-container {
 	position: fixed;
 	top: 0;
+	left: 0;
 	background-color: blue;
 	width: 100px;
 	height: 100px;
 	// width: 100vw;
 	// height: 100vh;
-	transform: translateY(100%);
+	transform: translateY(-102%);
 	outline: green solid 2px ;
 
 }
 
 .menu-container.is-open {
-	transform: translateY(0);
+	transform: translateY(0%);
 }
