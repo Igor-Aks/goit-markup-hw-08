@@ -58,6 +58,8 @@
 }
 
 .menu-nav__list {
+	margin-bottom: 306px;
+
   font-style: normal;
 	font-weight: 500;
 	font-size: 40px;
@@ -85,7 +87,7 @@ margin-bottom: 32px;
 }
 
 .menu-nav-address__list {
-	margin-top: 306px;
+	margin-bottom: 64px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 24px;
@@ -110,18 +112,27 @@ margin-bottom: 32px;
 
 .menu-social {
 	display: flex;
-	// justify-content: space-around;
+	justify-content: flex-start;
 	margin-top: 64px;
 }
 
 .menu-social__item {
-font-style: normal;
+	// display: flex;
+	// text-align: center;
+	margin-right: 20px;
+	padding-right: 10px;
+	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
 	/* identical to box height, or 122% */
 
 	letter-spacing: 0.02em;
-
 	color: $accent-color;
+
+	border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.menu-social__item:last-child {
+	border-right: none;
 }

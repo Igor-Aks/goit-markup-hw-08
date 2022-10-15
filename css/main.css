@@ -199,6 +199,7 @@ body {
 }
 
 .menu-nav__list {
+  margin-bottom: 306px;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -216,7 +217,7 @@ body {
 }
 
 .menu-nav-address__list {
-  margin-top: 306px;
+  margin-bottom: 64px;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -237,10 +238,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-top: 64px;
 }
 
 .menu-social__item {
+  margin-right: 20px;
+  padding-right: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -248,4 +254,9 @@ body {
   /* identical to box height, or 122% */
   letter-spacing: 0.02em;
   color: #2196F3;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.menu-social__item:last-child {
+  border-right: none;
 }/*# sourceMappingURL=main.css.map */
