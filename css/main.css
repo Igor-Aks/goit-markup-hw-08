@@ -143,7 +143,7 @@ body {
   }
 }
 
-.nav__btn {
+.menu-btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -160,22 +160,22 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (min-width: 480px) {
-  .nav__btn {
+@media screen and (min-width: 768px) {
+  .menu-btn {
     display: none;
   }
 }
 
-.nav__icon {
+.menu-icon {
   width: 18px;
   height: 18px;
 }
 
-.nav__btn.is-open .nav__icon-close {
+.menu-btn.is-open .menu-icon-close {
   display: block;
 }
 
-.nav__btn.is-open .nav__icon-stripes {
+.menu-btn.is-open .menu-icon-stripes {
   display: none;
 }
 
