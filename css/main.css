@@ -171,10 +171,6 @@ body {
   height: 18px;
 }
 
-.nav__icon-close {
-  display: none;
-}
-
 .nav__btn.is-open .nav__icon-close {
   display: block;
 }
@@ -187,15 +183,15 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: blue;
-  width: 100px;
-  height: 100px;
-  -webkit-transform: translateY(-102%);
-          transform: translateY(-102%);
-  outline: green solid 2px;
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+  -webkit-transform: translateY(-101%);
+          transform: translateY(-101%);
+  outline: green solid 1px;
 }
 
 .menu-container.is-open {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
