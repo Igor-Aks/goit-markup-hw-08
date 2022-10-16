@@ -78,7 +78,7 @@
 }
 
 .menu-nav__item {
-margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 // remove extreme bottom geometry
@@ -118,6 +118,10 @@ margin-bottom: 32px;
 
 }
 
+.menu-nav-address__telephone-number {
+	color: $accent-color;
+}
+
 .menu-social {
 	display: flex;
 	justify-content: flex-start;
@@ -127,7 +131,7 @@ margin-bottom: 32px;
 .menu-social__item {
 	// display: flex;
 	// text-align: center;
-	margin-right: 20px;
+	// margin-right: 20px;
 	padding-right: 10px;
 	font-style: normal;
 	font-weight: 500;
@@ -139,6 +143,10 @@ margin-bottom: 32px;
 	color: $accent-color;
 
 	border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+	outline: 2px solid tomato;
+	// text-align: center;
+	// flex: 1;
 }
 
 .menu-social__item:last-child {

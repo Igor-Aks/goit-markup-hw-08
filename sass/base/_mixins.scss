@@ -12,11 +12,11 @@
 	}
 }
 
-@mixin tablet-max-767 {
-	@media screen and (max-width: 767px) {
-		@content;
-	}
-}
+// @mixin tablet-max-767 {
+// 	@media screen and (max-width: 767px) {
+// 		@content;
+// 	}
+// }
 
 @mixin desktop-min-1200 {
 	@media screen and (min-width: 1200px) {
