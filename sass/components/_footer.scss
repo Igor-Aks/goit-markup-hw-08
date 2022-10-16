@@ -151,7 +151,7 @@
 .footer-form_wrap .footer-form__input {
 	margin: 20px 15px;
 	border: none;
-	width: 450px;
+	max-width: 450px;
 	height: 50px;
 	padding: 15px;
 
@@ -185,7 +185,7 @@
 .submit-btn {
 	display: flex;
 	align-items: center;
-	width: 200px;
+	max-width: 200px;
 	height: 50px;
 	padding: 10px 28px;
 	border: none;
