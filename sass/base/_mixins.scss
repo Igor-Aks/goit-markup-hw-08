@@ -1,12 +1,12 @@
 //media query mixins
 
-@mixin mobile-min-480  {
+@mixin mobile  {
 	@media screen and (min-width: 480px) {
 		@content;
 	}
 }
 
-@mixin tablet-min-768 {
+@mixin tablet {
 	@media screen and (min-width: 768px) {
 	@content;
 	}
@@ -18,7 +18,7 @@
 // 	}
 // }
 
-@mixin desktop-min-1200 {
+@mixin desktop {
 	@media screen and (min-width: 1200px) {
 		@content;
 	}

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --primary-text-color: #212121;
   --paragraph-color: #757575;
@@ -98,14 +97,20 @@ body {
 
 .header {
   position: relative;
-  border-bottom: 1px solid #ececec;
   width: 100%;
   height: 60px;
+  border-bottom: 1px solid #ececec;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    position: static;
+    height: 80px;
+  }
 }
 
 .nav__logo {
   font-family: "Raleway", sans-serif;
-  color: var(--primary-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
@@ -116,7 +121,7 @@ body {
 }
 
 .accent {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .nav {
@@ -131,16 +136,85 @@ body {
           justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
-  .nav__list {
-    display: none;
+@media screen and (min-width: 768px) {
+  .nav__list .nav__item + .nav__item {
+    margin-left: 50px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .nav-address__list {
-    display: none;
+.nav__list {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav__list {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 88px;
   }
+}
+
+.nav__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav__link:hover, .nav__link:focus {
+  color: #2196F3;
+}
+
+.nav__link--current {
+  position: relative;
+  color: #2196F3;
+}
+.nav__link--current::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  background: #2196F3;
+}
+
+.nav-address__list {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-address__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+  }
+}
+
+.nav-address__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .menu-btn {
@@ -518,11 +592,6 @@ body {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  /* галочка змінює колір при натисканні на квадратик або на напис "Погоджуюся з розсилкою
-  та приймаю Умови договору"
-  ----------------------------------------------------------------------------------------
-  Читається так: До .checkbox застосовується синій фон та синій бордер, якщо .accept__input, що є
-  вкладеним в .accept та водночас стоїть перед .accept__label, є в стані checked*/
 }
 .accept .accept__input:checked + .accept__label .checkbox {
   background: #2196F3;
