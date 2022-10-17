@@ -9,7 +9,7 @@
 
 .nav__logo {
 	font-family: 'Raleway', sans-serif;
-	color: var(--primary-text-color);
+	color: $primary-text-color;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.16;
@@ -18,12 +18,11 @@
 	margin-top: 16px;
 	margin-bottom: 16px;
 	margin-left: 15px;
-
 }
 
 // the color of the "Web" in the logo
 .accent {
-	color: var(--accent-color);
+	color: $accent-color;
 }
 
 .nav {
@@ -39,7 +38,7 @@
 
 // the text of the links in the header
 .nav__list {
-	// color: var(--primary-text-color);
+	// color: $primary-text-color;
 	// font-size: 14px;
 	// font-weight: 500;
 	// line-height: 1.1;
@@ -52,9 +51,9 @@
 	// 	display: none;
 	// }
 
-		@media screen and (max-width: 767px) {
-		display: none;
-	}
+	// 	@media screen and (max-width: 767px) {
+	// 	display: none;
+	// }
 }
 
 //increase the size of the clickable sector for links in the navigation
@@ -67,7 +66,7 @@
 
 	// &:hover,
 	// &:focus {
-	// 	color: var(--accent-color);
+	// 	color: $accent-color;
 	// }
 }
 
@@ -75,7 +74,7 @@
 .nav__link--current {
 	// position: relative;
 
-	// color: var(--accent-color);
+	// color: $accent-color;
 
 	// //underline for the current page
 	// &::after {
@@ -89,7 +88,7 @@
 	// 	left: 0;
 	// 	border-radius: 2px;
 
-	// 	background: var(--accent-color);
+	// 	background: $accent-color;
 	// }
 }
 
@@ -103,16 +102,16 @@
 	// line-height: 1.1;
 	// letter-spacing: 0.02em;
 
-	@media screen and (max-width: 767px) {
-			display: none;
-		}
+	// @media screen and (max-width: 767px) {
+	// 		display: none;
+	// 	}
 }
 
 //the color of the mail and phone text in the header
 .nav-address__item {
 	// display: flex;
 
-	// color: var(--paragraph-color);
+	// color: $paragraph-color;
 	// font-size: 14px;
 	// font-weight: 500;
 	// line-height: 1.1;
@@ -127,20 +126,20 @@
 	// padding-top: 32px;
 	// padding-bottom: 32px;
 
-	// color: var(--paragraph-color);
+	// color: $paragraph-color;
 
 	// transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	// //when hover on the link - mail and phone number change color
 	// &:hover,
 	// &:focus {
-	// 	color: var(--accent-color);
+	// 	color: $accent-color;
 	// }
 
 	// 	//when hover on the link - envelope and mobile phone icons change color
 	// &:hover .nav-address__icon,
 	// &:focus .nav-address__icon {
-	// 	fill: var(--accent-color);
+	// 	fill: $accent-color;
 	// }
 }
 
