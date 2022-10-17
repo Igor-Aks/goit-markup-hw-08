@@ -2,7 +2,8 @@
 .our-clients-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 30px;
+	// gap: 30px;
+	margin: -15px;
 }
 
 .our-clients-item {
@@ -10,7 +11,8 @@
 	height: 92px;
 
 	display: flex;
-	// flex-basis: calc((100% - 2 * 30px) / 2);
+	flex-basis: calc((100% - 2 * 30px) / 2);
+	margin: 15px;
 }
 
 .our-clients-link {
