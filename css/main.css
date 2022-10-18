@@ -383,8 +383,13 @@ body {
   padding-bottom: 118px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 480px;
   height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+  }
 }
 
 .hero__title {
@@ -413,6 +418,11 @@ body {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero__btn:hover, .hero__btn:focus {
+  background: #188ce8;
 }
 
 .backdrop {
@@ -685,7 +695,12 @@ body {
 }
 
 .features__item {
-  width: 450px;
+  max-width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .features__item {
+    width: 354px;
+  }
 }
 
 .features__subtitle {
