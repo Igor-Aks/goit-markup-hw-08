@@ -35,6 +35,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	// @media screen and (min-width: 1200px) {
+	// 	justify-content: none;
+	// }
 }
 
 // remove extreme geometry
@@ -49,14 +53,18 @@
 	display: none;
 
 	@media screen and (min-width: 768px) {
-	color: $primary-text-color;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
+		color: $primary-text-color;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
 
-	display: flex;
-	margin-left: 88px;
+		display: flex;
+		margin-left: 88px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		margin-left: 93px;
 	}
 }
 
@@ -111,6 +119,10 @@
 		line-height: 1.16;
 		letter-spacing: 0.02em;
 		}
+
+	@media screen and (min-width: 1200px) {
+	flex-direction: row;
+	}
 }
 
 //the color of the mail and phone text in the header
@@ -153,11 +165,18 @@
 	&:focus .nav-address__icon {
 		fill: $accent-color;
 	}
+
+	@media screen and (min-width: 1200px) {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
 }
 
 //remove the extreme geometry for mail in the header
 .nav-address__list .nav-address__item + .nav-address__item {
-	// margin-left: 50px;
+	@media screen and (min-width: 1200px) {
+			margin-left: 50px;
+		}
 }
 
 //the color of the envelope and mobile phone icons in the header
@@ -166,5 +185,9 @@
 	fill: #757575;
 
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	@media screen and (min-width: 1200px) {
+			margin-left: 0;
+		}
 }
 
