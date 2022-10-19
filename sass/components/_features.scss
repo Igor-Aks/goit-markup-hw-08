@@ -5,8 +5,8 @@
 		flex-wrap: wrap;
 		margin: -15px;
 		// gap: 30px;
+	}
 }
-
 .features__item {
 	max-width: 450px;
 
@@ -61,7 +61,7 @@
 }
 
 // remove extreme bottom geometry
-// .features__description:last-child {
-// 	margin-bottom: 0;
-// }
-} 
+.features__description:last-child {
+	margin-bottom: 0;
+}
+
