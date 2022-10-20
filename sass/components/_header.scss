@@ -1,6 +1,13 @@
 
+
+
 // bottom border in header
 .header {
+
+* {
+		outline: 1px solid #b0c4de;
+	}
+
 	position: relative;
 
 	min-width: 100%;
@@ -43,7 +50,7 @@
 
 .nav {
 	display: flex;
-	// align-items: center;
+	align-items: center;
 	justify-content: space-between;
 
 	@media screen and (min-width: 1200px) {
