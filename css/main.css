@@ -301,6 +301,12 @@ body {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 1200px) {
+  .nav-address__icon-envelope {
+    width: 16px;
+    height: 12px;
+  }
+}
 
 .nav-address__icon-smartphone {
   width: 10px;
@@ -308,6 +314,12 @@ body {
   fill: #757575;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .nav-address__icon-smartphone {
+    width: 10px;
+    height: 16px;
+  }
 }
 
 .menu-btn {
