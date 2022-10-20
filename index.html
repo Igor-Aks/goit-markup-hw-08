@@ -65,47 +65,6 @@
               <use class="menu-icon-stripes" href="./images/icons.svg#menu-stripes"></use>
             </svg>
           </button>
-          <div class="menu-container js-menu-container">
-            <nav class="menu-nav">
-              <ul class="menu-nav__list">
-                <li class="menu-nav__item">
-                  <a class="menu-nav__link menu-nav__link--current" href="./index.html">Студія</a>
-                </li>
-                <li class="menu-nav__item">
-                  <a class="menu-nav__link" href="./portfolio.html">Портфоліо</a>
-                </li>
-                <li class="menu-nav__item">
-                  <a class="menu-nav__link" href="">Контакти</a>
-                </li>
-              </ul>
-              <ul class="menu-nav-address__list">
-                <li class="menu-nav-address__item">
-                  <a
-                    class="menu-nav-address__link"
-                    lang="en"
-                    href="mailto:info@devstudio.com"
-                    target="_blank"
-                  >
-                    info@devstudio.com
-                  </a>
-                </li>
-                <li class="menu-nav-address__item">
-                  <a class="menu-nav-address__link" href="tel:+380961111111"> <span class="menu-nav-address__telephone-number" >+38 096 111 11 11</span></a>
-                </li>
-              </ul>
-              <ul class="menu-social">
-                <li class="menu-social__item">Instagram</li>
-                <li class="menu-social__item">Twitter</li>
-                <li class="menu-social__item">Facebook</li>
-                <li class="menu-social__item">LinkedIn</li>
-              </ul>
-            </nav>
-            <button type="button" class="menu-btn js-close-menu" data-menu-button>
-              <svg class="menu-icon" aria-label="Перемикач мобільного меню">
-                <use class="menu-icon-close" href="./images/icons.svg#menu-close"></use>
-              </svg>
-            </button>
-          </div>
         </nav>
       </div>
     </header>
@@ -497,6 +456,50 @@
         </form>
       </div>
     </footer>
+    <!-- mobile menu -->
+    <div class="menu-container js-menu-container">
+      <button type="button" class="menu-btn js-close-menu" data-menu-button>
+        <svg class="menu-icon" aria-label="Перемикач мобільного меню">
+          <use class="menu-icon-close" href="./images/icons.svg#menu-close"></use>
+        </svg>
+      </button>
+      <nav class="menu-nav">
+        <ul class="menu-nav__list">
+          <li class="menu-nav__item">
+            <a class="menu-nav__link menu-nav__link--current" href="./index.html">Студія</a>
+          </li>
+          <li class="menu-nav__item">
+            <a class="menu-nav__link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="menu-nav__item">
+            <a class="menu-nav__link" href="">Контакти</a>
+          </li>
+        </ul>
+        <ul class="menu-nav-address__list">
+          <li class="menu-nav-address__item">
+            <a
+              class="menu-nav-address__link"
+              lang="en"
+              href="mailto:info@devstudio.com"
+              target="_blank"
+            >
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="menu-nav-address__item">
+            <a class="menu-nav-address__link" href="tel:+380961111111">
+              <span class="menu-nav-address__telephone-number">+38 096 111 11 11</span></a
+            >
+          </li>
+        </ul>
+        <ul class="menu-social">
+          <li class="menu-social__item">Instagram</li>
+          <li class="menu-social__item">Twitter</li>
+          <li class="menu-social__item">Facebook</li>
+          <li class="menu-social__item">LinkedIn</li>
+        </ul>
+      </nav>
+    </div>
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -567,7 +570,6 @@
         </form>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
     <script
       defer
