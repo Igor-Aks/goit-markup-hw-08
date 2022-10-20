@@ -95,7 +95,6 @@ body {
   .header {
     position: static;
     height: 80px;
-    width: 768px;
   }
 }
 .nav__logo {
