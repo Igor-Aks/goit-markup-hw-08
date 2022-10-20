@@ -95,6 +95,7 @@ body {
   .header {
     position: static;
     height: 80px;
+    width: 768px;
   }
 }
 .nav__logo {
@@ -275,7 +276,6 @@ body {
 }
 
 .nav-address__icon {
-  margin-left: 96px;
   fill: #757575;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
