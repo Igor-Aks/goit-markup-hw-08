@@ -988,6 +988,7 @@ body {
 
 .team__item img {
   margin: 0 auto;
+  width: 354px;
 }
 
 .team__name {
