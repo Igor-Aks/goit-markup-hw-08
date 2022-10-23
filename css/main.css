@@ -1117,6 +1117,16 @@ body {
       flex-basis: calc((100% - 30px) / 2);
   margin: 15px;
 }
+@media screen and (min-width: 768px) {
+  .our-clients-item {
+    max-width: 210px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-clients-item {
+    max-width: 170px;
+  }
+}
 
 .our-clients-link {
   display: -webkit-box;
