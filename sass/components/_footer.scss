@@ -5,13 +5,13 @@
 	background-color: $footer-background;
 }
 
-// //section with the logo and address
+//section with the logo and address
 .footer-address {
 // 	margin-right: 70px;
 margin: 60px auto;
 }
 
-// // "studio" white color
+//"studio" white color
 .footer-address__logo {
 	display: block;
 	margin-bottom: 20px;
@@ -36,12 +36,12 @@ margin: 60px auto;
 	font-style: normal;
 
 
-// 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-// 	&:hover,
-// 	&:focus {
-// 		color: var(--accent-color);
-// 	}
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 
 // 	text color for mail and phone
@@ -54,12 +54,12 @@ margin: 60px auto;
 	letter-spacing: 0.03em;
 	font-style: normal;
 
-// 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-// 	&:hover,
-// 	&:focus {
-// 		color: var(--accent-color);
-// 	}
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 
 .footer-address__item {
@@ -71,8 +71,6 @@ margin: 60px auto;
 		margin-bottom: 0;
 	}
 }
-
-
 
 //action word
 .footer-action-word {
@@ -88,11 +86,17 @@ margin: 60px auto;
 }
 
 //section with social network icons
-.container.footer-content {
+.footer-content {
 	display: flex;
 	// justify-content: space-between;
 	// align-items: baseline;
 	flex-direction: column;
+
+	@media screen and (min-width: 768px) {
+			justify-content: space-between;
+				align-items: baseline;
+				flex-direction: row;
+		}
 }
 
 .footer-social {
@@ -121,12 +125,12 @@ margin: 60px auto;
 
 	color: $primary-white-color;
 
-// 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-// 	&:hover,
-// 	&:focus {
-// 		background-color: var(--accent-color);
-// 	}
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+	}
 }
 
 .footer-social__icon {
@@ -134,6 +138,11 @@ margin: 60px auto;
 	height: 20px;
 	fill: currentColor;
 }
+
+
+
+
+// form in footer
 
 .footer-form {
 // 	margin-left: 93px;
@@ -166,12 +175,12 @@ margin: 60px auto;
 	border-radius: 4px;
 	outline: none;
 
-// 	transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-// .footer-form_wrap input:focus {
-// 	border-color: var(--accent-color);
-// 	}
+.footer-form_wrap input:focus {
+	border-color: var(--accent-color);
+	}
 
 .footer-form__title {
 	margin-bottom: 20px;
@@ -204,12 +213,12 @@ margin: 60px auto;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 
-// 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-// 	&:hover,
-// 	&:focus {
-// 		background: #188ce8;
-// 	}
+	&:hover,
+	&:focus {
+		background: #188ce8;
+	}
 }
 
 .paper-plane-icon {
