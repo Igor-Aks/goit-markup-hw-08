@@ -11,16 +11,15 @@
 }
 
 .team__list {
-	// display: flex;
-	// flex-wrap: wrap;
-// margin: -15px;
-// 	gap: 30px;
-
 	@media screen and (min-width: 768px) {
 			display: flex;
 			flex-wrap: wrap;
 			margin: -15px;
 		}
+
+				@media screen and (min-width: 1200px) {
+					flex-wrap: nowrap;
+				}
 }
 
 .team__item {
@@ -35,8 +34,6 @@
 	@media screen and (min-width: 768px) {
 			margin: 15px;
 			max-width: 354px;
-			// height: 536px;
-			display: flex;
 			flex-basis: calc((100% - 30px) / 2);
 		}
 

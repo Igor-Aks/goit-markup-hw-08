@@ -9,14 +9,11 @@
 		}
 }
 
-
 .features__list {
 	@media screen and (min-width: 768px) {
 			display: flex;
 			flex-wrap: wrap;
 			margin: -15px;
-	// 		// gap: 30px;
-	// 		// justify-content: center;
 		}
 
 				@media screen and (min-width: 1200px) {
@@ -24,13 +21,12 @@
 				}
 }
 .features__item {
+	// margin-bottom: 30px;
 	max-width: 450px;
 
 	@media screen and (min-width: 768px) {
-			width:354px;
-
-			// display: flex;
-			// flex-basis: calc((100% - 2 * 15px) / 2);
+			max-width:354px;
+			flex-basis: calc((100% - 30px) / 2);
 			margin: 15px;
 		}
 
