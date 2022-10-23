@@ -2,10 +2,13 @@
 	outline: 1px solid #b0c4de;
 }
 
-.section.features {
-	@media screen and (min-width: 768px) {
-			padding-top: 60px;
-			padding-bottom: 60px;
+.features {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	@media screen and (min-width: 1200px) {
+			padding-top: 94px;
+			padding-bottom: 94px;
 		}
 }
 
