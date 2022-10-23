@@ -1210,6 +1210,11 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-address__logo {
+    text-align: left;
+  }
+}
 
 .footer-address__map-link {
   color: #ffffff;
@@ -1249,6 +1254,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-address__item {
     margin-bottom: 10px;
+    text-align: left;
   }
 }
 

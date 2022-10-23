@@ -38,6 +38,10 @@
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	text-align: center;
+
+	@media screen and (min-width: 1200px) {
+			text-align: left;
+		}
 }
 
 //address color (map link)
@@ -87,6 +91,7 @@
 
 		@media screen and (min-width: 1200px) {
 			margin-bottom: 10px;
+			text-align: left;
 		}
 }
 
