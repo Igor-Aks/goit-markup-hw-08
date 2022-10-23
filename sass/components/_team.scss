@@ -32,6 +32,7 @@
 	background-color: $primary-white-color;
 
 	@media screen and (min-width: 768px) {
+		margin: 15px;
 			width: 354px;
 			// display: flex;
 				// flex-basis: calc((100% - 30px) / 2);

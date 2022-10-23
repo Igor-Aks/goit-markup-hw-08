@@ -808,6 +808,10 @@ body {
   background: #188ce8;
 }
 
+* {
+  outline: 1px solid #b0c4de;
+}
+
 .features {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -982,6 +986,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .team__item {
+    margin: 15px;
     width: 354px;
   }
 }
