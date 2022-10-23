@@ -1,5 +1,13 @@
 .team {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
 	background-color: $secondary-background;
+
+	@media screen and (min-width: 1200px) {
+			padding-top: 94px;
+			padding-bottom: 94px;
+		}
 }
 
 .team__list {
@@ -16,6 +24,10 @@
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 	background-color: $primary-white-color;
+}
+
+.team__item img {
+	margin: 0 auto;
 }
 
 .team__name {
@@ -71,18 +83,18 @@
 
 	color: $border-icon-color;
 
-// 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-// 	&:hover,
-// 	&:focus {
-// 		background-color: var(--accent-color);
-// 	}
+	&:hover,
+	&:focus {
+		background-color: var(--accent-color);
+	}
 
-// 	//when hover on the link of social icons networks - the icon changes color
-// 	&:hover .team__social-icon,
-// 	&:focus .team__social-icon {
-// 		fill: var(--primary-white-color);
-// 	}
+	//when hover on the link of social icons networks - the icon changes color
+	&:hover .team__social-icon,
+	&:focus .team__social-icon {
+		fill: var(--primary-white-color);
+	}
 }
 
 .team__social-icon {
@@ -91,5 +103,5 @@
 
 	fill: currentColor;
 
-// 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
