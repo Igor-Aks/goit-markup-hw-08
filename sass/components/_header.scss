@@ -1,13 +1,6 @@
 
-
-
 // bottom border in header
 .header {
-
-// * {
-// 		outline: 1px solid #b0c4de;
-// 	}
-
 	position: relative;
 
 	min-width: 100%;
@@ -154,15 +147,13 @@
 	line-height: 1.1;
 	letter-spacing: 0.02em;
 
-
-
 	@media screen and (min-width: 768px) {
 		margin-bottom: 10px;
 	}
 
-	@media screen and (min-width: 1200px) {
-		margin-bottom: 0;
-	}
+			@media screen and (min-width: 1200px) {
+					margin-bottom: 0;
+			}
 }
 
 .nav-address__item:last-child {
@@ -195,11 +186,16 @@
 		color: $accent-color;
 	}
 
-		//when hover on the link - envelope and mobile phone icons change color
-	&:hover .nav-address__icon,
-	&:focus .nav-address__icon {
-		fill: $accent-color;
-	}
+// when hover on the link - envelope icon change color
+		&:hover .nav-address__icon-envelope,
+		&:focus .nav-address__icon-envelope {
+			fill: $accent-color;
+		}
+// when hover on the link - smartphone icon change color
+				&:hover .nav-address__icon-smartphone,
+				&:focus .nav-address__icon-smartphone {
+					fill: $accent-color;
+				}
 
 	@media screen and (min-width: 1200px) {
 		padding-top: 32px;

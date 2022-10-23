@@ -594,7 +594,124 @@
       </div>
     </footer>
     <!-- mobile menu -->
-
+    <div class="menu-container js-menu-container">
+      <button type="button" class="menu-btn js-close-menu" data-menu-button>
+        <svg class="menu-icon" aria-label="Перемикач мобільного меню">
+          <use class="menu-icon-close" href="./images/icons.svg#menu-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu">
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link mobile-menu__link--current" href="./index.html">Студія</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a class="mobile-menu__link" href="">Контакти</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu-address__list">
+        <li class="mobile-menu-address__item">
+          <a class="mobile-menu-address__link" href="tel:+380961111111">
+            <span class="mobile-menu-address__telephone-number">+38 096 111 11 11</span></a
+          >
+        </li>
+        <li class="mobile-menu-address__item">
+          <a
+            class="mobile-menu-address__link"
+            lang="en"
+            href="mailto:info@devstudio.com"
+            target="_blank"
+          >
+            info@devstudio.com
+          </a>
+        </li>
+      </ul>
+      <ul class="menu-social">
+        <li class="menu-social__item">Instagram</li>
+        <li class="menu-social__item">Twitter</li>
+        <li class="menu-social__item">Facebook</li>
+        <li class="menu-social__item">LinkedIn</li>
+      </ul>
+    </div>
     <!-- modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__close-btn" data-modal-close>
+          <svg class="modal__close-icon">
+            <use href="./images/icons.svg#close-button"></use>
+          </svg>
+        </button>
+        <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
+
+        <!-- form in modal window -->
+        <form class="form-modal">
+          <!-- "name" label -->
+          <div class="form-modal__element">
+            <label class="form-modal__label" for="name">Ім'я</label>
+            <div class="input-wrap">
+              <svg class="human-icon">
+                <use href="./images/icons.svg#human"></use></svg
+              ><input class="form-modal__input" type="text" name="name" id="name" />
+            </div>
+          </div>
+
+          <!-- "phone" number label -->
+          <div class="form-modal__element">
+            <label class="form-modal__label" for="tel">Телефон</label>
+            <div class="input-wrap">
+              <svg class="phone-handset-icon">
+                <use href="./images/icons.svg#phone-handset"></use></svg
+              ><input class="form-modal__input" type="tel" name="tel" id="tel" />
+            </div>
+          </div>
+
+          <!-- "mail" label -->
+          <div class="form-modal__element">
+            <label class="form-modal__label" for="mail-modal">Пошта</label>
+            <div class="input-wrap">
+              <svg class="envelope-black-icon">
+                <use href="./images/icons.svg#envelope-black"></use></svg
+              ><input class="form-modal__input" type="email" name="mail-modal" id="mail-modal" />
+            </div>
+          </div>
+
+          <!-- "comments" label -->
+          <div class="form-modal__element">
+            <label class="form-modal__label" for="comment">Коментар</label>
+            <textarea
+              class="form-modal__comments"
+              name="comment"
+              id="comment"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+
+          <!-- accept the terms of the contract -->
+          <div class="accept">
+            <input class="accept__input" type="checkbox" id="accept" name="accept" required />
+            <label class="accept__label" for="accept">
+              <span class="checkbox">
+                <svg class="checked-icon">
+                  <use href="./images/icons.svg#checked"></use>
+                </svg>
+              </span>
+              Погоджуюся з розсилкою та приймаю <a class="accept-link" href=""> Умови договору</a>
+            </label>
+          </div>
+
+          <button type="submit" class="modal__submit-btn">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
