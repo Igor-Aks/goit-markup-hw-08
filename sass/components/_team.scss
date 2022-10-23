@@ -12,7 +12,8 @@
 
 .team__list {
 	// display: flex;
-	// justify-content: center;
+	// flex-wrap: wrap;
+// margin: -15px;
 // 	gap: 30px;
 
 	@media screen and (min-width: 768px) {
@@ -32,11 +33,11 @@
 	background-color: $primary-white-color;
 
 	@media screen and (min-width: 768px) {
-		margin: 15px;
-			width: 354px;
+			margin: 15px;
+			max-width: 354px;
+			// height: 536px;
 			// display: flex;
-				// flex-basis: calc((100% - 30px) / 2);
-				// margin: 15px;
+			// flex-basis: calc((100% - 30px) / 2);
 		}
 
 				@media screen and (min-width: 1200px) {
@@ -46,7 +47,6 @@
 
 .team__item img {
 	margin: 0 auto;
-	// width: 354px;
 }
 
 .team__name {
@@ -60,7 +60,7 @@
 	text-align: center;
 }
 
-// //the text of the employee's job description text
+// the text of the employee's job description text
 .team__position {
 	margin-bottom: 16px;
 
@@ -71,7 +71,7 @@
 	text-align: center;
 }
 
-// // div for employee description
+// div for employee description
 .team__description {
 	padding: 30px 0 24px;
 
@@ -110,13 +110,13 @@
 
 	&:hover,
 	&:focus {
-		background-color: var(--accent-color);
+		background-color: $accent-color;
 	}
 
 	//when hover on the link of social icons networks - the icon changes color
 	&:hover .team__social-icon,
 	&:focus .team__social-icon {
-		fill: var(--primary-white-color);
+		fill: $primary-white-color;
 	}
 }
 

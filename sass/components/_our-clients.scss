@@ -1,9 +1,24 @@
+* {
+	outline: 1px solid #b0c4de;
+}
+
+.our-clients {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	@media screen and (min-width: 1200px) {
+			padding-top: 94px;
+			padding-bottom: 94px;
+		}
+}
+
 
 .our-clients-list {
 	display: flex;
 	flex-wrap: wrap;
-	// gap: 30px;
 	margin: -15px;
+	// gap: 30px;
+	justify-content: center;
 }
 
 .our-clients-item {
@@ -11,7 +26,7 @@
 	height: 92px;
 
 	display: flex;
-	flex-basis: calc((100% - 2 * 15px) / 2);
+	flex-basis: calc((100% - 30px) / 2);
 	margin: 15px;
 }
 
