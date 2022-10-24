@@ -3,10 +3,13 @@
 @import "./base/common";
 @import "./base/body";
 @import "./base/container";
-@import "./base/section";
+// @import "./base/section";
 
 //header
 @import "./components/header";
+
+//mobile menu
+@import "./components/mob-menu";
 
 //our projects
 @import "./components/our-projects";
