@@ -465,10 +465,6 @@ body {
   margin-left: 10px;
 }
 
-* {
-  outline: 1px solid #b0c4de;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
