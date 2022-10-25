@@ -22,15 +22,15 @@
 }
 
 .our-clients-item {
-	max-width: 210px;
+	width: 210px;
 	height: 92px;
 
-	display: flex;
+	// display: flex;
 	flex-basis: calc((100% - 30px) / 2);
 	margin: 15px;
 
 	@media screen and (min-width: 768px) {
-			max-width: 210px;
+			max-width: 226px;
 		}
 
 				@media screen and (min-width: 1200px) {
