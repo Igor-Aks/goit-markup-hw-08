@@ -1156,9 +1156,15 @@ body {
 .our-clients-item {
   width: 210px;
   height: 92px;
-  -ms-flex-preferred-size: calc((100% - 30px) / 2);
-      flex-basis: calc((100% - 30px) / 2);
   margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .our-clients-item {
+    max-width: 226px;
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+    margin: 15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .our-clients-item {
