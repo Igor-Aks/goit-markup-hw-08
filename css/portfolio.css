@@ -548,7 +548,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: -15px;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -560,22 +560,19 @@ body {
 }
 
 .our-projects-item {
-  max-width: 450px;
-  margin-bottom: 30px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 @media screen and (min-width: 768px) {
   .our-projects-item {
-    max-width: 354px;
     -ms-flex-preferred-size: calc((100% - 30px) / 2);
         flex-basis: calc((100% - 30px) / 2);
-    margin: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .our-projects-item {
-    width: 370px;
-    -ms-flex-preferred-size: calc((100% - 30px) / 3);
-        flex-basis: calc((100% - 30px) / 3);
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
   }
 }
 
