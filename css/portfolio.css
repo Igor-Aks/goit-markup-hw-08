@@ -469,6 +469,11 @@ body {
   margin-left: 10px;
 }
 
+.our-projects {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -586,7 +591,7 @@ body {
   background-color: #ffffff;
 }
 
-.our-projects {
+.our-projects-title {
   color: #212121;
   font-size: 18px;
   font-weight: 700;

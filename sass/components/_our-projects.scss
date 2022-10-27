@@ -2,6 +2,11 @@
 // 	outline: 1px solid #b0c4de;
 // }
 
+.our-projects {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
 //hide the title "our projects"
 .visually-hidden {
 	position: absolute;
@@ -135,11 +140,9 @@
 }
 
 //titles in "our projects"
-.our-projects {
+.our-projects-title {
 	// margin-bottom: 5px;
 	// padding: 60px auto;
-	// padding-top: 60px;
-	// padding-bottom: 60px;
 
 	color: $primary-text-color;
 	font-size: 18px;
