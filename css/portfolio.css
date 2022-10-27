@@ -106,6 +106,8 @@ body {
   .nav__logo {
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: 26px;
+    line-height: 1.17;
   }
 }
 
@@ -473,6 +475,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .our-projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -558,7 +566,6 @@ body {
 @media screen and (min-width: 768px) {
   .our-projects-item {
     max-width: 354px;
-    margin-bottom: 0;
     -ms-flex-preferred-size: calc((100% - 30px) / 2);
         flex-basis: calc((100% - 30px) / 2);
     margin: 15px;
@@ -574,6 +581,11 @@ body {
 
 .our-projects-item:last-child {
   margin-bottom: 0;
+}
+@media screen and (min-width: 1200px) {
+  .our-projects-item:last-child {
+    margin-bottom: 15px;
+  }
 }
 
 .our-projects-link {

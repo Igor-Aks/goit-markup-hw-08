@@ -123,6 +123,8 @@ body {
   .nav__logo {
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: 26px;
+    line-height: 1.17;
   }
 }
 
