@@ -500,8 +500,8 @@ body {
   padding: 5px 25px;
   border-radius: 4px;
   border: none;
-  color: var(--primary-text-color);
-  background-color: var(--secondary-background);
+  color: #212121;
+  background-color: #f5f4fa;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -515,8 +515,8 @@ body {
 }
 .filter-button:hover, .filter-button:focus {
   border-radius: 4px;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196F3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -567,7 +567,7 @@ body {
   line-height: 1.55;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--primary-white-color);
+  color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(101%);
           transform: translateY(101%);
@@ -583,13 +583,11 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
 }
 
 .our-projects {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  color: var(--title-text-color);
+  color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
