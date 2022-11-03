@@ -873,7 +873,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: -15px;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -891,7 +891,6 @@ body {
     max-width: 354px;
     -ms-flex-preferred-size: calc((100% - 30px) / 2);
         flex-basis: calc((100% - 30px) / 2);
-    margin: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -952,10 +951,6 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.features__description:last-child {
-  margin-bottom: 0;
-}
-
 .what-we-do {
   display: none;
 }

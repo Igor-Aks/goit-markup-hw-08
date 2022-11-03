@@ -13,7 +13,8 @@
 	@media screen and (min-width: 768px) {
 			display: flex;
 			flex-wrap: wrap;
-			margin: -15px;
+			// margin: -15px;
+			gap: 30px;
 		}
 
 				@media screen and (min-width: 1200px) {
@@ -27,7 +28,7 @@
 	@media screen and (min-width: 768px) {
 			max-width:354px;
 			flex-basis: calc((100% - 30px) / 2);
-			margin: 15px;
+			// margin: 15px;
 		}
 
 				@media screen and (min-width: 1200px) {
@@ -92,6 +93,6 @@
 }
 
 // remove extreme bottom geometry
-.features__description:last-child {
-	margin-bottom: 0;
-}
+// .features__description:last-child {
+// 	margin-bottom: 0;
+// }
