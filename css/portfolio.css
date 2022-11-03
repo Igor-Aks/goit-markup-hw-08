@@ -92,6 +92,7 @@ body {
     height: 80px;
   }
 }
+
 .nav__logo {
   font-family: "Raleway", sans-serif;
   color: #212121;
@@ -145,15 +146,15 @@ body {
 }
 @media screen and (min-width: 768px) {
   .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 87px;
     color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 87px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -458,7 +459,6 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
   letter-spacing: 0.02em;
   color: #2196F3;
 }

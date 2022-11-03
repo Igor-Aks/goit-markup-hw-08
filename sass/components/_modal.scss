@@ -126,7 +126,6 @@
 	position: absolute;
 	top: 50%;
 	left: 12px;
-	/* translate: 0 -50%; */
 	transform: translateY(-50%);
 
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -217,7 +216,7 @@
 	//галочка змінює колір при натисканні на квадратик або на напис "Погоджуюся з розсилкою
 	//та приймаю Умови договору"
 
-	//Читається так: До .checkbox застосовується синій фон та синій бордер, якщо .accept__input, що є
+	//Читається так: До .checkbox застосовується синій фон та синій бордер, якщо .accept__label, що є
 	// вкладеним в .accept та водночас стоїть перед .accept__label, є в стані checked*/
 	.accept &:checked + .accept__label .checkbox {
 			background: $accent-color;

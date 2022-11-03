@@ -1,12 +1,9 @@
-// * {
-// 	outline: 1px solid #b0c4de;
-// }
 
 .our-projects {
 	padding-top: 60px;
 	padding-bottom: 60px;
 
-	@media screen and (min-width: 1200px) {
+		@media screen and (min-width: 1200px) {
 			padding-top: 94px;
 			padding-bottom: 94px;
 		}
@@ -34,7 +31,7 @@
 	gap: 10px;
 	margin-bottom: 40px;
 
-	@media screen and (min-width: 768px) {
+		@media screen and (min-width: 768px) {
 			justify-content: center;
 		}
 }
@@ -69,17 +66,16 @@
 }
 
 .our-projects-list {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
 
-				@media screen and (min-width: 1200px) {
-					justify-content: center;
-				}
+		@media screen and (min-width: 1200px) {
+			justify-content: center;
+		}
 }
 
 .our-projects-item {
-	// margin-bottom: 30px;
 	flex-basis: 100%;
 
 		@media screen and (min-width: 768px) {
@@ -93,10 +89,6 @@
 
 .our-projects-item:last-child {
 	margin-bottom: 0;
-
-	// @media screen and (min-width: 1200px) {
-	// 		margin-bottom: 15px;
-	// 	}
 }
 
 //give the link block property, because without it hover will not work
@@ -125,12 +117,6 @@
 .our-projects-overlay {
 	position: relative;
 	overflow: hidden;
-
-	// @media screen and (min-width: 1200px) {
-	// 		img {
-	// 			width: 100%;
-	// 		}
-	// 	}
 }
 
 .our-projects-details {
@@ -172,17 +158,8 @@
 	background-color: $primary-white-color;
 }
 
-// .project-description:last-child {
-// 	flex-grow: 0;
-// }
-
-
-
 //titles in "our projects"
 .our-projects-title {
-	// margin-bottom: 5px;
-	// padding: 60px auto;
-
 	color: $primary-text-color;
 	font-size: 18px;
 	font-weight: 700;
